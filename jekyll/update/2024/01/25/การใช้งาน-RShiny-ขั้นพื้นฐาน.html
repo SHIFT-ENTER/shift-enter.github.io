@@ -3,20 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Shift-Enter | Shift-Enter รับวิเคราะห์ข้อมูล สร้างแบบจำลองคณิตศาสตร์ รับงานเขียนโปรแกรมด้วยภาษา R และภาษา Wolfram Mathematica รับสอนเขียนโปรแกรมภาษา R และภาษา Wolfram Mathematica</title>
+<title>การใช้าน R Shiny ขั้นพื้นฐาน | Shift-Enter</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Shift-Enter" />
+<meta property="og:title" content="การใช้าน R Shiny ขั้นพื้นฐาน" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Shift-Enter รับวิเคราะห์ข้อมูล สร้างแบบจำลองคณิตศาสตร์ รับงานเขียนโปรแกรมด้วยภาษา R และภาษา Wolfram Mathematica รับสอนเขียนโปรแกรมภาษา R และภาษา Wolfram Mathematica" />
 <meta property="og:description" content="Shift-Enter รับวิเคราะห์ข้อมูล สร้างแบบจำลองคณิตศาสตร์ รับงานเขียนโปรแกรมด้วยภาษา R และภาษา Wolfram Mathematica รับสอนเขียนโปรแกรมภาษา R และภาษา Wolfram Mathematica" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/jekyll/update/2024/01/25/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-RShiny-%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%90%E0%B8%B2%E0%B8%99.html" />
+<meta property="og:url" content="http://localhost:4000/jekyll/update/2024/01/25/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-RShiny-%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%90%E0%B8%B2%E0%B8%99.html" />
 <meta property="og:site_name" content="Shift-Enter" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-01-25T20:39:14+07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Shift-Enter" />
+<meta property="twitter:title" content="การใช้าน R Shiny ขั้นพื้นฐาน" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Shift-Enter รับวิเคราะห์ข้อมูล สร้างแบบจำลองคณิตศาสตร์ รับงานเขียนโปรแกรมด้วยภาษา R และภาษา Wolfram Mathematica รับสอนเขียนโปรแกรมภาษา R และภาษา Wolfram Mathematica","headline":"Shift-Enter","name":"Shift-Enter","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-25T20:39:14+07:00","datePublished":"2024-01-25T20:39:14+07:00","description":"Shift-Enter รับวิเคราะห์ข้อมูล สร้างแบบจำลองคณิตศาสตร์ รับงานเขียนโปรแกรมด้วยภาษา R และภาษา Wolfram Mathematica รับสอนเขียนโปรแกรมภาษา R และภาษา Wolfram Mathematica","headline":"การใช้าน R Shiny ขั้นพื้นฐาน","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2024/01/25/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-RShiny-%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%90%E0%B8%B2%E0%B8%99.html"},"url":"http://localhost:4000/jekyll/update/2024/01/25/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-RShiny-%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%90%E0%B8%B2%E0%B8%99.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Shift-Enter" /></head>
 <body><header class="site-header" role="banner">
@@ -36,21 +37,24 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jan 25, 2024</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2024/01/25/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-RShiny-%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%90%E0%B8%B2%E0%B8%99.html">
-            การใช้าน R Shiny ขั้นพื้นฐาน
-          </a>
-        </h3></li><li><span class="post-meta">Jan 24, 2024</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2024/01/24/%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.html">
-            ขึ้นบ้านใหม่
-          </a>
-        </h3></li></ul>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">การใช้าน R Shiny ขั้นพื้นฐาน</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-01-25T20:39:14+07:00" itemprop="datePublished">Jan 25, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="https://ammnet-thailand.github.io/img/ammnet.png" alt="AMMNet" /></p>
+
+<p>ปีที่แล้วได้เงินจาก The Applied Malaria Modeling Network (<a href="https://ammnet.org/">AMMNet</a>) มาจัดงาน workshop เรื่องการใช้งาน R Shiny เบื้องต้นสำหรับผู้ที่สนใจทั่วไป
+โดยที่เอกสารที่ใช้สอนผมได้แชร์ไว้ที่ <a href="https://ammnet-thailand.github.io/">https://ammnet-thailand.github.io/</a> เผื่อท่านใดสนใจก็เข้าไปอ่านได้ครับ</p>
+
+
+  </div><a class="u-url" href="/jekyll/update/2024/01/25/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-RShiny-%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%90%E0%B8%B2%E0%B8%99.html" hidden></a>
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
